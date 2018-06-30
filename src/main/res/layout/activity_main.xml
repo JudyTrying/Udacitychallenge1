@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--this is my education app #7DaysChallenge-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Name"/>
+
+            <EditText
+                android:id="@+id/yourname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Please type your name"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textAllCaps="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/heythere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hey there!! \nWelcome to Vacuum. Think you can HACK this question!?"
+            android:singleLine="false"
+            android:maxLines="2"
+            android:Lines="2"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/buttonyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yes"
+                android:textAllCaps="true"/>
+
+            <Button
+                android:id="@+id/buttonno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which physician discovered that contaminated water is the source of cholera epidemic in London 1854?"
+            android:lines="3"
+            android:textColor="#FF0000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your answer here"/>
+
+    </LinearLayout>
+
+</ScrollView>
